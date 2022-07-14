@@ -19,6 +19,7 @@ public class My_Swing_Element {
     public static void main(String[] args) {
         // TODO code application logic here
         try {
+            System.out.println("TEST");
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
